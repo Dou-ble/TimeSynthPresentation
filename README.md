@@ -7,5 +7,6 @@
 	4. Add TimeSynth Component to the blueprint you want it in.
 	5. Set bpm of time synth component to the song
 	6. On begin play, add a quantization event delegate. This will repeatedly run an event after the specified amount of beats/ bars have passed.
-	7. The event attached to this can do things like move an object on beat, or only allow events on beat.
+		a. The event attached to this can do things like move an object on beat, or only allow events on beat.
+	7. On begin play, play the clip, specifying the clip you created.
 
